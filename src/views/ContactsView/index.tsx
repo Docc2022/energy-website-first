@@ -30,7 +30,7 @@ const ContactsView = () => {
         <span>Тел.:</span> +38(067)606-88-66
         <br />
         <br />
-        <span>E-mail:</span> flex-wrap: wrap;
+        <span>E-mail:</span> meteza@ukr.net
       </p>
     </main>
   );
