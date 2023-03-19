@@ -9,8 +9,6 @@ import { whiteTheme } from "src/shared/themes/white-theme";
 const Header = () => {
   const { pathname } = useRouter();
 
-  console.log("router", pathname);
-
   return (
     <div className="bg-slate-900">
       <div className="max-w-6xl mx-auto px-10 py-5 flex flex-col gap-y-5">
