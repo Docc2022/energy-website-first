@@ -5,7 +5,7 @@ const ConsumersView = () => {
     <main className="max-w-6xl mx-auto px-10 py-5 flex flex-col gap-y-5">
       <section className="section-consumers">
         <header className="services-header title">
-          <h2 className="text-xl font-bold">Споживачам ТОВ «ЕНЕРГО ПРОФТ»</h2>
+          <h2 className="text-xl font-bold">Споживачам ТОВ «МЕТЕЗА»</h2>
         </header>
         <p className="title-text">
           Наша компанія має на меті створити прозору та доступну систему
