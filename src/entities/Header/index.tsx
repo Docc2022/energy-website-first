@@ -23,7 +23,6 @@ const Header = () => {
               {menuLinks.map((item, index) => (
                 <Link key={item.name} href={item.link}>
                   <Button
-                    sx={{ bgcolor: "secondary.main" }}
                     color={pathname === item.link ? "secondary" : "primary"}
                     variant="contained"
                   >
