@@ -15,6 +15,7 @@ export const whiteTheme = createTheme({
       styleOverrides: {
         root: {
           fontSize: "1rem",
+          backgroundColor: "transparent",
 
           "&.MuiButton-containedSecondary": {
             backgroundColor: grey["900"],
