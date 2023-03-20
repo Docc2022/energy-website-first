@@ -5,7 +5,7 @@ const ConsumersView = () => {
     <main className="max-w-6xl mx-auto px-10 py-5 flex flex-col gap-y-5">
       <section className="section-consumers">
         <header className="services-header title">
-          <h2 className="text-xl font-bold">Споживачам ТОВ «МЕТЕЗА»</h2>
+          <h2 className="text-xl font-bold">Споживачам  ТОВ &quot;ЕК &quot;МЕТЕЗА&quot;</h2>
         </header>
         <p className="title-text">
           Наша компанія має на меті створити прозору та доступну систему
@@ -48,7 +48,7 @@ const ConsumersView = () => {
           &#8211;
           <span>
             {" "}
-            Поштова адреса: Україна, 04053, місто київ, пров.киянівський,
+            Поштова адреса: Україна, 04053 , місто Київ, пров. Киянівський,
             будинок 3-7, офіс 110
           </span>
           <br />
@@ -127,9 +127,9 @@ const ConsumersView = () => {
           енергонебезпеки за цими контактами:
           <br />
           <br />–<span> Номер телефону:</span> +38(067)606-88-66;
-          <br />–<span> Електронна пошта:</span> info@energoproft.net.ua;
-          <br />–<span> Поштова адреса:</span> 03061, місто Київ, вул. Шепелєва
-          Миколи, будинок 6.
+          <br />–<span> Електронна пошта:</span> meteza@ukr.net;
+          <br />–<span> Поштова адреса:</span> Україна, 04053 , місто Київ,
+          пров. Киянівський, будинок 3-7, офіс 110;
           <br />
           <br />
           Також, на постійній основі приймаються скарги та пропозиції під час

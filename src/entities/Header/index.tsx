@@ -12,9 +12,17 @@ const Header = () => {
   return (
     <div className="bg-slate-900">
       <div className="max-w-6xl mx-auto px-10 py-5 flex flex-col gap-y-5">
-        <Link href={"/"}>
-          <h1 className="text-4xl font-bold text-yellow-500">ЕК Метеза</h1>
-        </Link>
+        <div className="flex justify-between flex-wrap gap-5">
+          <Link href={"/"}>
+            <h1 className="text-4xl font-bold text-yellow-500">
+              ТОВ &quot;ЕК &quot;МЕТЕЗА&quot;
+            </h1>
+          </Link>
+          <span className="text-white flex items-center">
+            Тел.: +38(067)606-88-66
+          </span>
+        </div>
+
         <nav>
           <ThemeProvider theme={whiteTheme}>
             <ul className="flex gap-x-8 align-middle justify-between flex-wrap">
