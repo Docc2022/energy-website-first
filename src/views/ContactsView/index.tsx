@@ -4,11 +4,8 @@ const ContactsView = () => {
   return (
     <main className="max-w-6xl mx-auto px-10 py-5 flex flex-col gap-y-5">
       <h1 className="text-4xl font-bold">Контакти</h1>
-      <p className="text-base">
-        ТОВ &quot;ЕК &quot;МЕТЕЗА&quot; – сучасна компанія, яка використовує
-        передові технології у сфері електропостачання, генерує прогресивні ідеї
-        розвитку. Ми сумлінно впроваджуємо передові методи постачання
-        електроенергії.
+      <p className="text-base font-bold">
+        ТОВ &quot;ЕНЕРГЕТИЧНА КОМПАНІЯ &quot;МЕТЕЗА&quot;
       </p>
       <p className="title-text">
         <span>Керівник:</span> Даценко Ігор Васильович
