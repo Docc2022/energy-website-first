@@ -14,7 +14,6 @@ const MenuItem: React.FC<Props> = (props) => {
   return (
     <div className="group flex flex-col justify-center relative items-center">
       <Button
-        className="z-20"
         color={pathname === item.link ? "secondary" : "primary"}
         variant="contained"
       >
@@ -22,7 +21,7 @@ const MenuItem: React.FC<Props> = (props) => {
       </Button>
 
       {item.submenu && (
-        <div className="absolute -z-10 transition duration-300 ease-in-out top-0 opacity-0 group-hover: group-hover:z-10 group-hover:opacity-100 pt-10">
+        <div className="absolute -z-10 transition duration-300 ease-in-out top-full opacity-0 group-hover: group-hover:z-10 group-hover:opacity-100">
           <ul className="flex  flex-col bg-slate-900 text-white p-5 gap-y-2">
             {item.submenu.map((item, index) => (
               <Link key={`${item.link}_${index}`} href={item.link}>
