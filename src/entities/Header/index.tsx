@@ -34,7 +34,7 @@ const Header = () => {
 
             <nav>
               <ThemeProvider theme={whiteTheme}>
-                <ul className="flex gap-x-8 align-middle justify-between flex-wrap">
+                <ul className="flex gap-x-8 gap-y-5 align-middle justify-between flex-wrap">
                   {menuLinks.map((item, index) => (
                     <li key={`${item.link}_${index}`}>
                       {item.link ? (
