@@ -1,17 +1,12 @@
 import React from "react";
+import { priceRow } from "src/shared/types";
 
-const rows = [
-  {
-    title: "Послуги з постачання електроенергії",
-    items: ["Найменування", "Вартість", "-", "-"],
-  },
-  {
-    title: "Електрична енергія",
-    items: ["Найменування", "Вартість", "-", "-"],
-  },
-];
+interface Props {
+  rows: priceRow[];
+}
 
-const PriceTable = () => {
+const PriceTable: React.FC<Props> = (props) => {
+  const { rows } = props;
   return (
     <div className="flex flex-col border-2 max-w-2xl mx-auto w-full rounded-lg">
       <ul className="p-4">

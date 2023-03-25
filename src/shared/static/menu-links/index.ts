@@ -1,8 +1,49 @@
 export const menuLinks = [
   { name: "ПРО КОМПАНІЮ", link: "/" },
-  { name: "ДОКУМЕНТИ", link: "/documents" },
-  { name: "СПОЖИВАЧАМ", link: "/consumers" },
-  { name: "ЗВІТНІСТЬ", link: "/report" },
-  { name: "ЦІНИ", link: "/prices" },
+  {
+    name: "ЕЛЕКТРИЧНА ЕНЕРГІЯ",
+    link: "",
+    submenu: [
+      {
+        name: "ДОКУМЕНТИ",
+        link: "/electricity/documents",
+      },
+      {
+        name: "СПОЖИВАЧАМ",
+        link: "/electricity/consumers",
+      },
+      {
+        name: "ЗВІТНІСТЬ",
+        link: "/electricity/report",
+      },
+      {
+        name: "ЦІНИ",
+        link: "/electricity/prices",
+      },
+    ],
+  },
+  {
+    name: "ПРИРОДНІЙ ГАЗ",
+    link: "",
+    submenu: [
+      {
+        name: "ДОКУМЕНТИ",
+        link: "/gas/documents",
+      },
+      {
+        name: "СПОЖИВАЧАМ",
+        link: "/gas/consumers",
+      },
+      {
+        name: "ЗВІТНІСТЬ",
+        link: "/gas/report",
+      },
+      {
+        name: "ЦІНИ",
+        link: "/gas/prices",
+      },
+    ],
+  },
   { name: "КОНТАКТИ", link: "/contacts" },
 ];
+

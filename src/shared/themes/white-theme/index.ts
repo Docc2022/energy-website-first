@@ -17,6 +17,10 @@ export const whiteTheme = createTheme({
           fontSize: "1rem",
           backgroundColor: "transparent",
 
+          ":hover": {
+            backgroundColor: grey["900"],
+          },
+
           "&.MuiButton-containedSecondary": {
             backgroundColor: grey["900"],
           },
