@@ -28,7 +28,7 @@ const ContactsView = () => {
         <span>Тел.:</span> +38(067)606-88-66
         <br />
         <br />
-        <span>E-mail:</span> meteza@ukr.net
+        <span>E-mail:</span> office@meteza.com.ua
       </p>
     </main>
   );

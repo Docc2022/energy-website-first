@@ -6,19 +6,19 @@ const documents = [
   { title: "Умови продажу та надання послуг" },
   {
     name: "Права і обов’язки постачальника та споживача",
-    link: "",
+    link: "/documents/PRAVA-I-OBYAZANNOSTI.pdf",
   },
   {
     name: "Загальні умови постачання природного газу",
-    link: "",
+    link: "/documents/PRAVILA-POSTACHANNYA-PRIRODNOGO-GAZU.docx",
   },
   {
     name: "Договір постачання природнього газу",
-    link: "",
+    link: "/documents/dohovir газ.docx",
   },
   {
     name: "Процедура вирішення спорів",
-    link: "",
+    link: "/documents/Protsedura-vyrishennya-sporiv.docx",
   },
   {
     title:

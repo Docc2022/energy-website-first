@@ -13,7 +13,7 @@ const Footer = () => {
             Україна, 04053 , місто Київ, пров. Киянівський, будинок 3-7, офіс
             110
           </p>
-          <p>E-mail: meteza@ukr.net</p>
+          <p>E-mail: office@meteza.com.ua</p>
         </div>
       </div>
     </footer>

@@ -45,7 +45,7 @@ const ConsumersView = () => {
           &#8211;<span> Номер телефону: +38(067)606-88-66;</span>
           <br />
           &#8211;
-          <span> Електронна пошта: meteza@ukr.net</span>
+          <span> Електронна пошта: office@meteza.com.ua</span>
           <br />
           &#8211;
           <span>
@@ -129,7 +129,7 @@ const ConsumersView = () => {
           енергонебезпеки за цими контактами:
           <br />
           <br />–<span> Номер телефону:</span> +38(067)606-88-66;
-          <br />–<span> Електронна пошта:</span> meteza@ukr.net;
+          <br />–<span> Електронна пошта:</span> office@meteza.com.ua;
           <br />–<span> Поштова адреса:</span> Україна, 04053 , місто Київ,
           пров. Киянівський, будинок 3-7, офіс 110;
           <br />

@@ -23,16 +23,12 @@ export const menuLinks = [
     ],
   },
   {
-    name: "ПРИРОДНІЙ ГАЗ",
+    name: "ПРИРОДНИЙ ГАЗ",
     link: "",
     submenu: [
       {
         name: "ДОКУМЕНТИ",
         link: "/gas/documents",
-      },
-      {
-        name: "СПОЖИВАЧАМ",
-        link: "/gas/consumers",
       },
       {
         name: "ЗВІТНІСТЬ",
@@ -46,4 +42,3 @@ export const menuLinks = [
   },
   { name: "КОНТАКТИ", link: "/contacts" },
 ];
-
